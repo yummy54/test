@@ -1,0 +1,22 @@
+{
+  "name": "restful",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "body-parser": "^1.19.1",
+    "circular-json": "^0.5.9",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.2",
+    "length": "^0.0.1",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  },
+  "description": ""
+}

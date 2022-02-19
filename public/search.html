@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <form method='post' action='/api/users/userBody' name='userForm' target="targetURL">
+     <p>
+     <!--<input type="button" class="btn btn-primary btn-lg" style="width:100px;height:50px; font-size:20; font-family:굴림" value="Park list"
+      onclick="document.targetURL.location.href='/api/parks'">-->
+     <p>
+      <!--<iframe name="targetURL" class="iframe-preview center" width="500px" height="700"
+       style="border:none;" src="http://52.78.72.155:3000/api/parks">
+       </iframe>-->
+       <script type="text/javascript">
+        location.href="http://52.78.72.155:3000/park/find";
+    </script>
+    </body>
+</html>
